@@ -36,6 +36,9 @@ class CoordinatedAttackSim:
         :param communication_graph: the communication graph, default is complete graph with $process_count$ nodes
         :param prob_func: defining probability function that returns true or false (true for sending message and false for having link failure)
         :param simulation_num: number of simulations
+        :param differ_initial_val_on_round: whether to generate new initial values for processes
+        :param base_path: base path for saving data
+        :param fixed_key: if we should focus on a fixed key
         """
         if decisions_list is None:
             decisions_list = [0, 1]
