@@ -11,7 +11,7 @@ Three main requirements are as follows:
 ### safety:
 #### - agreement:
 &emsp; no two process decide on different values
-#### - Validation;
+#### - Validation:
 &emsp;  If all processes start with zero, then zero is the only possible decision.
 <br/>
 &emsp;  If all processes start with one, and we had no failures, then one is the only possible decision.
