@@ -176,19 +176,22 @@ class CoordinatedAttackSim:
         :param log:
         :return: if the results are correct [True, None] otherwise returns False, reason(the rule that has been violated)
         """
+        violations = []
         if self.__has_termination_violation(decisions):
             if log:
                 print('Termination violation')
-            return False, 'Termination'
+            violations.append('Termination')
         if self.__has_agreement_violation(decisions):
             if log:
                 print('Agreement violation')
-            return False, 'Agreement'
+            violations.append('Agreement')
         if self.__has_validation_violation(decisions, process_initial_vals, total_failed_count):
             if log:
                 print('Validation violation')
-            return False, 'Validation'
-        return True, '-'
+            violations.append('Validation')
+        has_violation = len(violations) == 0
+        errors = '-' if len(violations) == 0 else '-'.join(violations)
+        return has_violation, errors
 
     def __has_termination_violation(self, decisions: list) -> bool:
         # return true if any process has the decision value None(hasn't decided yet)

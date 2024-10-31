@@ -1,0 +1,11 @@
+,initial-vals,decisions,info-levels,received-count,failed-count,key,is-correct-answer,reason
+0,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 1]",False,Agreement-Validation
+1,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 1]",False,Agreement-Validation
+2,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 2]",False,Validation
+3,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 10]",False,Validation
+4,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 7]",False,Validation
+5,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 10]",False,Validation
+6,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 7]",False,Validation
+7,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 7]",False,Validation
+8,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 8]",False,Validation
+9,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]",90,0,"[None, None, None, None, None, None, None, None, None, 1]",False,Agreement-Validation

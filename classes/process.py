@@ -8,7 +8,7 @@ class Process:
                  prob_func: Callable[[], bool], is_key_generator: bool = False):
         """
 
-        :param uid:
+        :param uid: process uid (number between 1 to n)
         :param initial_val: initial value of process (must be in decision)
         :param process_count: number of all processes
         :param default_decision_val: default value of decision
@@ -57,7 +57,7 @@ class Process:
         if self.__neighbors is None:
             self.__neighbors = neighbors
 
-    def generate_key(self, round_number: int, key:int=None) -> int:
+    def generate_key(self, round_number: int, key: int = None) -> int:
         if not self.__is_key_generator:
             raise ValueError('Only key generator process can generates key')
         if key is None:
